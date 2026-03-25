@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+data/chroma/
+data/vegapunk.db
+.pytest_cache/
+.ruff_cache/
+
+# Alert exports (may contain sensitive log data)
+wazuh_alerts_*.json
+
+# Internal docs
+docs/
